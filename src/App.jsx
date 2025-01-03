@@ -13,7 +13,7 @@ function App() {
         <Projects />
         <Skills />
         <Contact />
-          <p className='max-w-7xl mx-auto px-4 sm:px-6 dark:text-white lg:px-8 text-center py-8'>Designed By Manohar Kale</p>
+          <p className='max-w-7xl mx-auto px-4 sm:px-6 dark:text-white text-gray-700 lg:px-8 text-sm text-center py-8'>Designed By Manohar Kale</p>
       </main>
     </div>
   );
