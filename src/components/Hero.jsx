@@ -1,6 +1,6 @@
 import React from 'react';
 import { Download, Github, Linkedin, Mail } from 'lucide-react';
-import { useTypewriter } from '../hooks/useTypeWriter';
+import { useTypewriter } from '../hooks/useTypewriter';
 
 const Hero = () => {
   const roles = useTypewriter({
