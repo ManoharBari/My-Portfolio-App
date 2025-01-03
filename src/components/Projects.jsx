@@ -3,28 +3,38 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'A full-stack web application built with React and Node.js',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80',
-    tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-    github: 'https://github.com',
-    live: 'https://example.com'
+    title: 'Weather Application',
+    description: 'A Weather Application use an API to fetch and display real-time weather data, offering accurate forecasts and current conditions.',
+    tech: ['React', 'Node.js', 'API', 'CSS', 'Bootstrap'],
+    github: 'https://github.com/ManoharBari/weather_app_react',
+    live: 'https://weather-forecast-webapp.vercel.app'
   },
   {
-    title: 'Project 2',
-    description: 'An e-commerce platform with payment integration',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80',
-    tech: ['Next.js', 'Stripe', 'Tailwind CSS', 'PostgreSQL'],
-    github: 'https://github.com',
-    live: 'https://example.com'
+    title: 'Notebook App',
+    description: 'Notebook is a full-stack MERN application for managing notes.',
+    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'JWT', 'Thunder Client', 'Bootstrap'],
+    github: 'https://github.com/ManoharBari/Notebook-App',
+    live: 'https://notebook-webapp.vercel.app'
   },
   {
-    title: 'Project 3',
-    description: 'Mobile-first social media application',
-    image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=800&q=80',
-    tech: ['React Native', 'Firebase', 'Redux', 'Node.js'],
-    github: 'https://github.com',
-    live: 'https://example.com'
+    title: 'Project Management System',
+    description: 'It is a full-stack MERN application for managing projects.',
+    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Redux', 'JWT'],
+    github: 'https://github.com/ManoharBari/Project-Manager',
+  },
+  {
+    title: 'Simon Game',
+    description: "This is a classic Simon game built using HTML, CSS, and JavaScript.",
+    tech: ['HTML', 'Javascript', 'CSS', 'Bootstrap'],
+    github: 'https://github.com/ManoharBari/Simon-Game',
+    live: 'https://manoharbari.github.io/Simon-Game'
+  },
+  {
+    title: 'Spotify Clone',
+    description: "This is a simple Spotify clone project built using HTML and CSS.",
+    tech: ['HTML', 'Javascript', 'CSS', 'Bootstrap'],
+    github: 'https://github.com/ManoharBari/Spotify-Clone',
+    live: 'https://manoharbari.github.io/Spotify-Clone'
   }
 ];
 
@@ -35,12 +45,7 @@ const Projects = () => {
         <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">PROJECTS</h2>
         <div className="grid px-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="hover:translate-y-4 bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-colors">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
+            <div key={index} className="transition duration-500 ease-in-out hover:-translate-y-2 bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-colors">
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
@@ -48,7 +53,7 @@ const Projects = () => {
                   {project.tech.map((tech, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-200 text-sm rounded-full"
+                      className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 text-sm rounded-full"
                     >
                       {tech}
                     </span>
@@ -57,14 +62,14 @@ const Projects = () => {
                 <div className="flex space-x-4">
                   <a
                     href={project.github}
-                    className="flex items-center text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white transition-colors"
+                    className="flex items-center text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                   >
                     <Github size={20} className="mr-2" />
                     Code
                   </a>
                   <a
                     href={project.live}
-                    className="flex items-center text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white transition-colors"
+                    className="flex items-center text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                   >
                     <ExternalLink size={20} className="mr-2" />
                     Live Demo
