@@ -22,6 +22,11 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
             {roles}
           </p>
+          <p className="text-sm md:text-sm text-gray-600 dark:text-gray-300 mb-8">
+            A Full Stack Developer designs and implements both front-end <br />
+            and back-end solutions, ensuring seamless integration and<br />
+            functionality across applications.
+          </p>
           <div className="flex justify-center space-x-4">
             <a
               href="#projects"
