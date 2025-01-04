@@ -41,4 +41,4 @@ A modern, responsive portfolio application built using React. This app showcases
 
 ## Deployment
 
-    [Live Demo](https://manoharkale.vercel.app)
+[Live Demo](https://manoharkale.vercel.app)
