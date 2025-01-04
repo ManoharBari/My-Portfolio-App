@@ -22,15 +22,6 @@ const Header = () => {
 
           {/* Social Links and Theme Toggle */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com/ManoharBari" className="text-gray-700 dark:text-gray-200">
-              <Github size={20} className='hover:text-blue-500' />
-            </a>
-            <a href="https://www.linkedin.com/in/manohar-kale" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">
-              <Linkedin size={20} className='hover:text-blue-500' />
-            </a>
-            <a href="mailto:manoharkale5368@gmail.com" className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">
-              <Mail size={20} className='hover:text-blue-500' />
-            </a>
             <ThemeToggle />
           </div>
 
@@ -48,11 +39,11 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white dark:bg-gray-900">
+        <div className="md:hidden bg-gray-50 dark:bg-gray-900">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#projects" className="block px-3 py-2 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Projects</a>
-            <a href="#skills" className="block px-3 py-2 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Skills</a>
-            <a href="#contact" className="block px-3 py-2 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white">Contact</a>
+            <a href="#projects" className="block px-3 py-2 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400">Projects</a>
+            <a href="#skills" className="block px-3 py-2 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400">Skills</a>
+            <a href="#contact" className="block px-3 py-2 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400">Contact</a>
           </div>
         </div>
       )}
