@@ -45,7 +45,7 @@ const Projects = () => {
         <h2 className="text-3xl font-bold text-center text-gray-600 dark:text-white mb-12">PROJECTS</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="transition duration-500 ease-in-out hover:-translate-y-2 bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-colors">
+            <div key={index} className="transition ease-in-out duration-800 hover:-translate-y-2 bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{project.title}</h3>
                 <p className="text-gray-600 text-sm dark:text-gray-300 mb-4">{project.description}</p>
@@ -64,14 +64,14 @@ const Projects = () => {
                     href={project.github}
                     className="flex items-center text-sm text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                   >
-                    <Github size={18} className="mr-2" />
+                    <Github size={20} className="mr-2" />
                     Code
                   </a>
                   <a
                     href={project.live}
                     className="flex items-center text-sm text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                   >
-                    <ExternalLink size={18} className="mr-2" />
+                    <ExternalLink size={20} className="mr-2" />
                     Live
                   </a>
                 </div>
