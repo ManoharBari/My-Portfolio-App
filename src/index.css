@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Update Hero name to match splash screen */
+.hero-name {
+  @apply text-blue-600 dark:text-blue-400;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -32,7 +32,7 @@ const Hero = () => {
               className="inline-flex items-center px-4 py-2 border-2 border-transparent text-base font-medium rounded-md text-blue-600 border-blue-600 hover:bg-blue-600 hover:text-white dark:text-white transition-colors"
             >
               Resume
-              <Download className="ml-2" size={20} />
+              <Download className="animate-bounce ml-2" size={20} />
             </a>
             <a href="https://github.com/ManoharBari" className="text-gray-700 dark:text-gray-200" target="_blank"> <Github size={23} className='hover:text-blue-500' /> </a>
             <a href="https://www.linkedin.com/in/manohar-kale" className="text-gray-700 dark:text-gray-200" target="_blank"> <Linkedin size={23} className='hover:text-blue-500' /> </a>
