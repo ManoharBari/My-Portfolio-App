@@ -40,7 +40,7 @@ const projects = [
     title: 'Link Tree Clone',
     description: "This is a Link Tree Clone project built using Next.js.",
     tech: ['Next.js', 'Tailwind', 'CSS', 'Bootstrap'],
-    github: '',
+    github: 'https://github.com/ManoharBari/Link-Tree-Clone',
     live: 'https://link-tree-clone-app.vercel.app'
   }
 ];
