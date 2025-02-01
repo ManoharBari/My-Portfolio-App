@@ -35,6 +35,13 @@ const projects = [
     tech: ['HTML', 'Javascript', 'CSS', 'Bootstrap'],
     github: 'https://github.com/ManoharBari/Spotify-Clone',
     live: 'https://manoharbari.github.io/Spotify-Clone'
+  },
+  {
+    title: 'Link Tree Clone',
+    description: "This is a Link Tree Clone project built using Next.js.",
+    tech: ['Next.js', 'Tailwind', 'CSS', 'Bootstrap'],
+    github: '',
+    live: 'https://link-tree-clone-app.vercel.app'
   }
 ];
 
