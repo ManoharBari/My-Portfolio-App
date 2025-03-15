@@ -17,10 +17,11 @@ const projects = [
     live: 'https://notebook-webapp.vercel.app'
   },
   {
-    title: 'Project Management System',
-    description: 'It is a full-stack MERN application for managing projects.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Redux', 'JWT'],
-    github: 'https://github.com/ManoharBari/Project-Manager',
+    title: 'NextDoor - Service Booking Platform',
+    description: 'NextDoor is a full-stack application designed for seamless and hassle-free service booking.',
+    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Redux', 'JWT', 'Tailwind', 'Payment Gateway'],
+    github: 'https://github.com/ManoharBari/NextDoor',
+    live: 'https://next-door-app.vercel.app'
   },
   {
     title: 'Simon Game',
