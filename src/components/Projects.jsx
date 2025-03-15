@@ -17,7 +17,7 @@ const projects = [
     live: 'https://notebook-webapp.vercel.app'
   },
   {
-    title: 'NextDoor - Service Booking Platform',
+    title: 'NextDoor',
     description: 'NextDoor is a full-stack application designed for seamless and hassle-free service booking.',
     tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Redux', 'JWT', 'Tailwind', 'Payment Gateway'],
     github: 'https://github.com/ManoharBari/NextDoor',
