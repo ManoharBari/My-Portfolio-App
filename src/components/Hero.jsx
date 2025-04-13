@@ -28,7 +28,7 @@ const Hero = () => {
             functionality across applications.
           </p>
           <div className="flex justify-center items-center space-x-4">
-            <a href="https://drive.google.com/file/d/1V2CTVlXFm6sdaVDAw7ucSX9dbJ-tc5hz/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1-0XS5f4OUomOO69bUcoJuZ9yYFRy3mrz"
               className="inline-flex items-center px-4 py-2 border-2 border-transparent text-base font-medium rounded-md text-blue-600 border-blue-600 hover:bg-blue-600 hover:text-white dark:text-white transition-colors"
             >
               Resume
