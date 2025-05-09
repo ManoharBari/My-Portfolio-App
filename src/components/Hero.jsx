@@ -19,7 +19,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             Hi, I'm <span className="text-blue-600 dark:text-blue-400">Manohar Kale</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
+          <p className="text-xl md:text-2xl min-h-[2rem] text-gray-600 dark:text-gray-300 mb-8">
             {roles}
           </p>
           <p className="text-sm md:text-sm text-gray-600 dark:text-gray-300 mb-8">
